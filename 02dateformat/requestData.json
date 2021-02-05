@@ -1,6 +1,7 @@
 {
   "layout": "A4 portrait",
   "outputFormat": "pdf",
+  "lang": "fr_CH",
   "attributes": {
     "map": {
       "longitudeFirst": true,

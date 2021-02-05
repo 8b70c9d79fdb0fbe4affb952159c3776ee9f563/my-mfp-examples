@@ -6,6 +6,8 @@ templates:
   A4 portrait: !template
     reportTemplate: report.jrxml
     attributes:
+      timezone: !string
+        default: 'GMT-5:00'
       title: !string
         default: 'Countries'
       map: !map
@@ -17,4 +19,5 @@ templates:
         directory: '.'
       - !createMap {}
       - !dateFormat
-        pattern: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
+        pattern: "EEEEE dd MMMMM yyyy HH:mm"
+        #pattern: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
