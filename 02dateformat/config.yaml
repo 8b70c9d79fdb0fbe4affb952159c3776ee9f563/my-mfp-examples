@@ -16,3 +16,5 @@ templates:
       - !reportBuilder
         directory: '.'
       - !createMap {}
+      - !dateFormat
+        pattern: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
