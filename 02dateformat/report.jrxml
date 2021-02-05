@@ -6,6 +6,7 @@
 	<parameter name="title" class="java.lang.String"/>
 	<parameter name="mapSubReport" class="java.lang.String"/>
 	<parameter name="dateFormat" class="java.text.DateFormat"/>
+	<parameter name="frenchDateformat" class="java.text.DateFormat"/>
 	<title>
 		<band height="390" splitType="Stretch">
 			<textField>
@@ -36,12 +37,16 @@
 				<textFieldExpression><![CDATA[String.format("Length of title: %d", $P{title}.length())]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="306" y="75" width="214" height="15" uuid="223a3b7d-de70-4dbc-bbd9-cd9a9b526ec2"/>
-				<textFieldExpression><![CDATA[$P{dateFormat}.format(TODAY())]]></textFieldExpression>
+				<reportElement x="280" y="70" width="250" height="20" uuid="223a3b7d-de70-4dbc-bbd9-cd9a9b526ec2"/>
+				<textFieldExpression><![CDATA["ISO: " + $P{dateFormat}.format(TODAY())]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="315" y="115" width="215" height="35" uuid="801eeec9-f60b-4ba3-859e-0608e7291547"/>
+				<reportElement x="187" y="150" width="215" height="35" uuid="801eeec9-f60b-4ba3-859e-0608e7291547"/>
 				<textFieldExpression><![CDATA[new SimpleDateFormat("yyyy--> HH:MM:SS", new Locale("de")).format(TODAY( ))]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="100" width="270" height="30" uuid="f049c80d-311a-42cd-b897-d180d8e4ead1"/>
+				<textFieldExpression><![CDATA["FRZ: "+$P{frenchDateformat}.format(TODAY())]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>

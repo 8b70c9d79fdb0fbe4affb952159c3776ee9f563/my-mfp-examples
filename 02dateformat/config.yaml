@@ -18,6 +18,13 @@ templates:
       - !reportBuilder
         directory: '.'
       - !createMap {}
+      # Here we add two processors for "dateFormat":
+      # The first one is the default one and it will use ISO pattern:
+      - !dateFormat
+         pattern: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
+      # The second one uses a french pattern. We need to remap the
+      # output, such that we then have to parameters in the report
+      # in order to use both:
       - !dateFormat
         pattern: "EEEEE dd MMMMM yyyy HH:mm"
-        #pattern: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
+        outputMapper: {dateFormat: frenchDateformat}

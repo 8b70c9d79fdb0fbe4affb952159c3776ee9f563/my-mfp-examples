@@ -3,6 +3,7 @@
   "outputFormat": "pdf",
   "lang": "fr_CH",
   "attributes": {
+    "timezone": "UTC",	
     "map": {
       "longitudeFirst": true,
       "center": [
