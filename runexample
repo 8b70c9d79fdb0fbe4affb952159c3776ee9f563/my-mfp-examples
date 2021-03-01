@@ -14,7 +14,7 @@ if [ -z $EXAMPLE]; then
     exit 1
 fi
  
-
+TIMESTAMP=`date -u +"%Y-%m-%dT%H%M%S"`
 RUN_PATH="$(pwd)/$EXAMPLE"
 MFP_PATH=$HOME/dev/mfp/mapfish-print
 
@@ -23,4 +23,5 @@ echo "RUN_PATH: $RUN_PATH"
 echo "MFP_PATH=$MFP_PATH"
 
 cd $MFP_PATH
-$MFP_PATH/gradlew print $DEBUG -PprintArgs="-config $RUN_PATH/config.yaml -spec $RUN_PATH/requestData.json -output $RUN_PATH/output"
+$MFP_PATH/gradlew print $DEBUG -PprintArgs="-config $RUN_PATH/config.yaml -spec $RUN_PATH/requestData.json -output $RUN_PATH/output-$TIMESTAMP"
+# ln
