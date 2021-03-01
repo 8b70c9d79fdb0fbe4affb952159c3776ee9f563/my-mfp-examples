@@ -4,15 +4,30 @@
   "attributes": {
     "map": {
 	"longitudeFirst": true,
-	"center": [
-	    11.414795,
-	    48.890004
-	],
-	"scale": 2500000,
+	"areaOfInterest": {
+            "area": {
+		"type": "MultiPoint",
+		"coordinates": [
+		    [
+			0,
+			40
+		    ],
+		    [
+			20,
+			60
+		    ]
+		]
+            }
+	},
       "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
       "layers": [
+          {
+	      "name": "bbox-germany",
+              "type": "geojson",
+              "geojson": "file://my_pointz.geojson"
+	  },
         {
           "type": "geojson",
           "geoJson": "file://european-union-countries.geojson",
