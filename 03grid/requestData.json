@@ -4,22 +4,10 @@
   "attributes": {
     "map": {
 	"longitudeFirst": true,
-	"areaOfInterest": {
-	    "display": "NONE",
-            "area": {
-		"type": "MultiPoint",
-		"coordinates": [
-		    [
-			0,
-			40
-		    ],
-		    [
-			10,
-			60
-		    ]
-		]
-            }
-	},
+	"center": [
+	    10.458984,
+	    50.331436],
+	"scale": 10000000,
       "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
@@ -33,12 +21,17 @@
               "symbolizers": [
                 {
                   "type": "polygon",
-                  "fillColor": "#5E7F99",
-                  "fillOpacity": 1,
+                  "fillColor": "#000099",
+                  "fillOpacity": 0.3,
                   "strokeColor": "#CC1D18",
                   "strokeOpacity": 1,
                   "strokeWidth": 1
-                }
+                },
+		 {
+                  "type": "text",
+                  "label": "[admin]",
+                  "haloRadius": "3"
+                } 
               ]
             }
           }
