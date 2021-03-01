@@ -38,7 +38,7 @@
         },
           {
               "type": "grid",
-              "gridType": "points",
+              "gridType": "lines",
               "numberOfLines": [
 		  5,
 		  5
