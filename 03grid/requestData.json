@@ -5,9 +5,10 @@
     "map": {
 	"longitudeFirst": true,
 	"center": [
-	    10.458984,
-	    50.331436],
-	"scale": 10000000,
+	    11.414795,
+	    48.890004
+	],
+	"scale": 2500000,
       "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
@@ -39,9 +40,10 @@
           {
               "type": "grid",
               "gridType": "lines",
-              "numberOfLines": [
-		  5,
-		  5
+	      "origin": [0.5, 50.0],
+              "spacing": [
+		  1,
+		  1
               ],
               "renderAsSvg": true,
               "haloColor": "#CCFFCC",
