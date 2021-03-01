@@ -4,20 +4,10 @@
   "attributes": {
     "map": {
 	"longitudeFirst": true,
-	"areaOfInterest": {
-            "area": {
-		"type": "MultiPoint",
-		"coordinates": [
-		    [
-			0,
-			40
-		    ],
-		    [
-			20,
-			60
-		    ]
-		]
-            }
+	"zoomToFeatures": {
+	    "layer": "bbox-germany",
+	    "minMargin": 20,
+	    "minScale": 10000
 	},
       "projection": "EPSG:4326",
       "dpi": 72,
