@@ -35,7 +35,33 @@
               ]
             }
           }
-        }
+        },
+          {
+              "type": "grid",
+              "gridType": "points",
+              "numberOfLines": [
+		  5,
+		  5
+              ],
+              "renderAsSvg": true,
+              "haloColor": "#CCFFCC",
+              "labelColor": "black",
+              "labelFormat": "%1.0f %s",
+              "indent": 10,
+              "haloRadius": 4,
+              "font": {
+		  "name": [
+		      "Liberation Sans",
+		      "Helvetica",
+		      "Nimbus Sans L",
+		      "Liberation Sans",
+		      "FreeSans",
+		      "Sans-serif"
+		  ],
+		  "size": 8,
+		  "style": "BOLD"
+              }
+          }
       ]
     }
   }
