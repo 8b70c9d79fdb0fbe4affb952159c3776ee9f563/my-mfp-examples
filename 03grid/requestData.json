@@ -5,6 +5,7 @@
     "map": {
 	"longitudeFirst": true,
 	"areaOfInterest": {
+	    "display": "NONE",
             "area": {
 		"type": "MultiPoint",
 		"coordinates": [
@@ -13,7 +14,7 @@
 			40
 		    ],
 		    [
-			20,
+			10,
 			60
 		    ]
 		]
