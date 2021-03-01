@@ -4,11 +4,9 @@
   "attributes": {
     "map": {
       "longitudeFirst": true,
-      "center": [
-        5,
-        45
-      ],
-      "scale": 10000000,
+      "bbox":  [
+	    0,40,20,60   
+	],
       "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
