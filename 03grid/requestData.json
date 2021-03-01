@@ -3,10 +3,22 @@
   "outputFormat": "png",
   "attributes": {
     "map": {
-      "longitudeFirst": true,
-      "bbox":  [
-	    0,40,20,60   
-	],
+	"longitudeFirst": true,
+	"areaOfInterest": {
+            "area": {
+		"type": "MultiPoint",
+		"coordinates": [
+		    [
+			0,
+			40
+		    ],
+		    [
+			20,
+			60
+		    ]
+		]
+            }
+	},
       "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
