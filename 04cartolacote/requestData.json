@@ -4,12 +4,12 @@
   "attributes": {
     "map": {
 	"longitudeFirst": true,
-	"zoomToFeatures": {
-	    "layer": "bbox-germany",
-	    "minMargin": 20,
-	    "minScale": 10000
-	},
-      "projection": "EPSG:4326",
+	"center": [
+	    2509492,
+	    1140344
+	],
+      "scale": 200000,
+      "projection": "EPSG:2056",
       "dpi": 72,
       "rotation": 0,
       "layers": [
