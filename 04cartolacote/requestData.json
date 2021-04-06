@@ -69,7 +69,87 @@
 		  "size": 8,
 		  "style": "BOLD"
               }
-          }
+          },
+
+
+	          {
+          "type": "WMTS",
+          "baseURL": "https://ge.ch/sitgags2/rest/services/RASTER/ORTHOPHOTOS_2018/MapServer/WMTS/tile/1.0.0/",
+          "opacity": 1,
+          "layer": "RASTER_ORTHOPHOTOS_2018",
+          "style": "default",
+          "version": "1.0.0",
+          "requestEncoding": "KVP",
+          "dimensions": null,
+          "dimensionParams": {},
+          "matrixSet": "default028mm",
+          "matrices": [
+            {
+              "identifier": "0",
+              "matrixSize": [
+                2,
+                2
+              ],
+              "scaleDenominator":  483810.49143044587,
+              "tileSize": [
+                512,
+                512
+              ],
+              "topLeftCorner": [
+		2462122.16,
+                1160775.62
+              ]
+            },
+            {
+              "identifier": "1",
+              "matrixSize": [
+                3,
+                3
+              ],
+              "scaleDenominator":  241905.24571522293,
+              "tileSize": [
+                512,
+                512
+              ],
+              "topLeftCorner": [
+		  2462122.16, 1160775.62
+              ]
+            },
+            {
+              "identifier": "2",
+              "matrixSize": [
+                5,
+                5
+              ],
+              "scaleDenominator":  120952.62285761147,
+              "tileSize": [
+                512,
+                512
+              ],
+              "topLeftCorner": [
+		  2462122.16, 1160775.62
+              ]
+            },
+            {
+              "identifier": "3",
+              "matrixSize": [
+                9,
+                9
+              ],
+              "scaleDenominator":  60476.31142880573,
+              "tileSize": [
+                512,
+                512
+              ],
+              "topLeftCorner": [
+		  2462122.16, 1160775.62
+              ]
+            }
+
+	      
+          ],
+          "imageFormat": "image/jpgpng"
+        }
       ]
     }
   }
