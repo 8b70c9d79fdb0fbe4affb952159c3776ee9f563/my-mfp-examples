@@ -1,0 +1,76 @@
+{
+  "layout": "A4 portrait",
+  "outputFormat": "png",
+  "attributes": {
+    "map": {
+	"longitudeFirst": true,
+	"zoomToFeatures": {
+	    "layer": "bbox-germany",
+	    "minMargin": 20,
+	    "minScale": 10000
+	},
+      "projection": "EPSG:4326",
+      "dpi": 72,
+      "rotation": 0,
+      "layers": [
+          {
+	      "name": "bbox-germany",
+              "type": "geojson",
+	      "opacity": 0.1,
+              "geojson": "file://my_pointz.geojson"
+	  },
+        {
+          "type": "geojson",
+          "geoJson": "file://european-union-countries.geojson",
+          "style": {
+            "version": "2",
+            "*": {
+              "symbolizers": [
+                {
+                  "type": "polygon",
+                  "fillColor": "#000099",
+                  "fillOpacity": 0.3,
+                  "strokeColor": "#CC1D18",
+                  "strokeOpacity": 1,
+                  "strokeWidth": 1
+                },
+		 {
+                  "type": "text",
+                  "label": "[admin]",
+                  "haloRadius": "3"
+                } 
+              ]
+            }
+          }
+        },
+          {
+              "type": "grid",
+              "gridType": "lines",
+	      "origin": [0.5, 50.0],
+              "spacing": [
+		  1,
+		  1
+              ],
+              "renderAsSvg": true,
+              "haloColor": "#CCFFCC",
+              "labelColor": "black",
+              "labelFormat": "%1.0f %s",
+              "indent": 10,
+              "haloRadius": 4,
+              "font": {
+		  "name": [
+		      "Liberation Sans",
+		      "Helvetica",
+		      "Nimbus Sans L",
+		      "Liberation Sans",
+		      "FreeSans",
+		      "Sans-serif"
+		  ],
+		  "size": 8,
+		  "style": "BOLD"
+              }
+          }
+      ]
+    }
+  }
+}
