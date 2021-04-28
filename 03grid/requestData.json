@@ -16,6 +16,7 @@
           {
 	      "name": "bbox-germany",
               "type": "geojson",
+	      "opacity": 0.1,
               "geojson": "file://my_pointz.geojson"
 	  },
         {

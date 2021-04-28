@@ -74,12 +74,12 @@
 
 	          {
           "type": "WMTS",
-          "baseURL": "https://ge.ch/sitgags2/rest/services/RASTER/ORTHOPHOTOS_2018/MapServer/WMTS/tile/1.0.0/",
+          "baseURL": "https://ge.ch/sitgags2/rest/services/RASTER/ORTHOPHOTOS_2018/MapServer/WMTS/tile/1.0.0/RASTER_ORTHOPHOTOS_2018/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}",
           "opacity": 1,
           "layer": "RASTER_ORTHOPHOTOS_2018",
           "style": "default",
           "version": "1.0.0",
-          "requestEncoding": "KVP",
+          "requestEncoding": "REST",
           "dimensions": null,
           "dimensionParams": {},
           "matrixSet": "default028mm",
