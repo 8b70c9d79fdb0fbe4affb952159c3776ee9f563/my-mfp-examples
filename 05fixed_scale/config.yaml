@@ -16,8 +16,14 @@ templates:
         width: 400
         height: 339
       scalebar: !scalebar
+        createSubReport: true
         width: 380
         height: 130
+        default:
+          intervals: 5
+          subIntervals: true
+          type: line
+          unit: m
         
     processors:
       - !reportBuilder
