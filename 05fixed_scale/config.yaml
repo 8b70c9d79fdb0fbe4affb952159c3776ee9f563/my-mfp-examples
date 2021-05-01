@@ -9,6 +9,9 @@ templates:
       title: !string
         default: 'Countries'
       map: !map
+        zoomLevels: !zoomLevels
+#          scales: [1000000, 10000000, 100000000]
+          scales: [10000000, 100000000]
         maxDpi: 400
         width: 780
         height: 330
