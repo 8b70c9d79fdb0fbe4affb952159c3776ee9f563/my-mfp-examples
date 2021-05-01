@@ -9,7 +9,7 @@ if [ "$2" == "--debug" ]; then
     DEBUG="--debug-jvm"
 fi
 
-if [ -z $EXAMPLE]; then
+if [ -z $EXAMPLE ]; then
     echo "Usage: ./runexample example01 [--debug]"
     exit 1
 fi
