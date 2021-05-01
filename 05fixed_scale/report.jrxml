@@ -14,6 +14,7 @@
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 	<parameter name="title" class="java.lang.String"/>
 	<parameter name="mapSubReport" class="java.lang.String"/>
+	<parameter name="scalebarSubReport" class="java.lang.String"/>
 	<title>
 		<band height="390" splitType="Stretch">
 			<textField>
@@ -36,7 +37,6 @@
 				<reportElement x="420" y="50" width="380" height="130" uuid="962b38d8-a492-4757-bd0f-9c9f2993c377">
 					<property name="com.jaspersoft.studio.element.name" value="Scalebar"/>
 				</reportElement>
-				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
 				<subreportExpression><![CDATA[$P{scalebarSubReport}]]></subreportExpression>
 			</subreport>
 		</band>
