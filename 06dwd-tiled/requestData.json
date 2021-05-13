@@ -8,7 +8,7 @@
         11.64292,
         48.08833
       ],
-      "scale": 100000,
+      "scale": 20000,
       "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
@@ -19,7 +19,10 @@
           "opacity": 1,
           "serverType": "geoserver",
           "layers": [
-            "dwd:Warngebiete_Gemeinden"
+            "dwd:Warngebiete_Gemeinden,dwd:Warngebiete_Gemeinden"
+          ],
+          "styles": [
+            "Warngebiete_gruen,Warngebiete_Gemeinden_Text"
           ],
           "imageFormat": "image/png",
           "customParams": {
