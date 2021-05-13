@@ -1,0 +1,32 @@
+{
+  "layout": "Square",
+  "outputFormat": "png",
+  "attributes": {
+    "map": {
+      "longitudeFirst": true,
+      "center": [
+        5329497,
+        696806
+      ],
+      "scale": 100000000,
+      "projection": "EPSG:25832",
+      "dpi": 72,
+      "rotation": 0,
+      "layers": [
+        {
+          "type": "WMS",
+          "baseURL": "https://maps.dwd.de/geoserver/dwd/wms",
+          "opacity": 1,
+          "serverType": "geoserver",
+          "layers": [
+            "dwd:Warngebiete_Gemeinden"
+          ],
+          "imageFormat": "image/png",
+          "customParams": {
+            "TRANSPARENT": "true"
+          }
+        }
+      ]
+    }
+  }
+}
