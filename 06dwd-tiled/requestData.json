@@ -11,7 +11,7 @@
       "scale": 20000,
       "projection": "EPSG:25832",
       "dpi": 72,
-      "rotation": 0,
+      "rotation": 20,
       "layers": [
         {
           "type": "WMS",
