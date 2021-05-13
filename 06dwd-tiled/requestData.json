@@ -5,11 +5,11 @@
     "map": {
       "longitudeFirst": true,
       "center": [
-        5329497,
-        696806
+        11.64292,
+        48.08833
       ],
-      "scale": 100000000,
-      "projection": "EPSG:25832",
+      "scale": 100000,
+      "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
       "layers": [
