@@ -36,6 +36,15 @@
 				</reportElement>
 				<subreportExpression><![CDATA[$P{northArrowSubReport}]]></subreportExpression>
 			</subreport>
+			<image>
+				<reportElement x="2" y="921" width="295" height="79" uuid="08af2c47-5ce4-49b1-9841-e23aa3d644c6">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["dwd-logo.tif"]]></imageExpression>
+			</image>
 		</band>
 	</title>
 </jasperReport>
