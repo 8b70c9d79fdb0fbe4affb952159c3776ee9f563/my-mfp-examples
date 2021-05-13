@@ -5,6 +5,7 @@
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 	<parameter name="title" class="java.lang.String"/>
 	<parameter name="mapSubReport" class="java.lang.String"/>
+	<parameter name="northArrowSubReport" class="java.lang.String"/>
 	<title>
 		<band height="1000" splitType="Stretch">
 			<rectangle>
@@ -28,6 +29,12 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<subreportExpression><![CDATA[$P{mapSubReport}]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="800" y="0" width="200" height="200" uuid="c75bef69-b5f8-47be-87f0-5d000f342dac">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<subreportExpression><![CDATA[$P{northArrowSubReport}]]></subreportExpression>
 			</subreport>
 		</band>
 	</title>
