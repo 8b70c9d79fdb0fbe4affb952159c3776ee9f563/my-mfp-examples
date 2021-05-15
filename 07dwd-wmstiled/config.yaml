@@ -1,0 +1,23 @@
+throwErrorOnExtraParameters: true
+transparentTileErrorColor: 'rgba(78, 78, 255, 125)'
+opaqueTileErrorColor: 'rgba(255, 155, 155, 0)'
+
+templates:
+  Square: !template
+    reportTemplate: report.jrxml
+    attributes:
+      title: !string
+        default: ''
+      map: !map
+        maxDpi: 400
+        width: 1000
+        height: 1000
+      northArrow: !northArrow
+        size: 200
+        default:
+          graphic: 'north.svg'
+    processors:
+      - !reportBuilder
+        directory: '.'
+      - !createMap {}
+      - !createNorthArrow {}
