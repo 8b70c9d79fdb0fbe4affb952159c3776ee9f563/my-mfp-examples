@@ -21,3 +21,8 @@ templates:
         directory: '.'
       - !createMap {}
       - !createNorthArrow {}
+      - !setTiledWms
+        maxWidth: 500
+        maxHeight: 500
+        tileBufferWidth: 50
+        tileBufferHeight: 50
