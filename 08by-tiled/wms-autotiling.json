@@ -8,13 +8,13 @@
         696806,
         5329497
       ],
-      "scale": 20000,
+      "scale": 40000,
       "projection": "EPSG:25832",
       "dpi": 72,
       "rotation": 00,
       "layers": [
         {
-          "type": "wms",
+          "type": "WMS",
           "baseURL": "http://localhost:8088/geoserver/by/wms",
           "opacity": 1,
           "serverType": "geoserver",
