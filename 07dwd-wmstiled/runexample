@@ -27,9 +27,10 @@ for json in `ls $RUN_PATH/*.json`; do
   echo $json
   INPUT=$json
   OUTPUT=${INPUT%.json}_$TIMESTAMP
+  LOG=${INPUT%.json}_$TIMESTAMP.log
   echo $INPUT
   echo $OUTPUT
-  $MFP_PATH/gradlew print $DEBUG -PprintArgs="-config $RUN_PATH/config.yaml -spec $INPUT -output $OUTPUT"
+  $MFP_PATH/gradlew print $DEBUG -PprintArgs="-config $RUN_PATH/config.yaml -spec $INPUT -output $OUTPUT" | tee $LOG
 done
 
 # ln
