@@ -1,0 +1,32 @@
+{
+  "layout": "Square",
+  "outputFormat": "png",
+  "attributes": {
+    "map": {
+      "longitudeFirst": true,
+      "center": [
+        696806,
+        5329497
+      ],
+      "scale": 20000,
+      "projection": "EPSG:25832",
+      "dpi": 72,
+      "rotation": 00,
+      "layers": [
+        {
+          "type": "wms",
+          "baseURL": "http://localhost:8088/geoserver/by/wms",
+          "opacity": 1,
+          "serverType": "geoserver",
+          "layers": [
+            "by:gemeinden"
+          ],
+          "imageFormat": "image/png",
+          "customParams": {
+            "TRANSPARENT": "true"
+          }
+        }
+      ]
+    }
+  }
+}
