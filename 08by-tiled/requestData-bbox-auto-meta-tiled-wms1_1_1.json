@@ -1,17 +1,16 @@
 {
   "layout": "Auto meta tiling",
-  "outputFormat": "pdf",
+  "outputFormat": "png",
   "attributes": {
     "map": {
-      "projection": "EPSG:4326",
       "dpi": 72,
       "rotation": 0,
-      "bbox": [
-        -130,
-        20,
-        -60,
-        50
+      "center": [
+        696806,
+        5329497
       ],
+      "scale": 40000,
+      "projection": "EPSG:25832",
       "longitudeFirst": true,
       "layers": [
         {
