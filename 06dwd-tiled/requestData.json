@@ -41,6 +41,29 @@
             "properties": {
               "name": "Camptocamp Germany"
             }
+          },
+          "style":
+          {
+            "version": "2",
+            "*": {
+              "symbolizers": [
+                {
+                  "type": "text",
+                  "fontColor": "#000000",
+                  "label": "[name]",
+                  "goodnessOfFit": 0.1,
+                  "spaceAround": 10
+                },
+                {
+                  "type": "point",
+                  "fillColor": "red",
+                  "strokeColor": "red",
+                  "strokeOpacity": 1,
+                  "strokeWidth": 2,
+                  "pointRadius": 6
+                }
+              ]
+            }
           }
         }
       ]
