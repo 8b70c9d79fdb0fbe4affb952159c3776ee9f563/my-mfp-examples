@@ -14,29 +14,13 @@
       "rotation": 20,
       "layers": [
         {
-          "type": "WMS",
-          "baseURL": "https://maps.dwd.de/geoserver/dwd/wms",
-          "opacity": 1,
-          "serverType": "geoserver",
-          "layers": [
-            "dwd:Warngebiete_Gemeinden,dwd:Warngebiete_Gemeinden"
-          ],
-          "styles": [
-            "Warngebiete_gruen,Warngebiete_Gemeinden_Text"
-          ],
-          "imageFormat": "image/png",
-          "customParams": {
-            "TRANSPARENT": "true"
-          }
-        },
-        {
           "type": "GeoJSON",
           "geoJson":
           {
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": [ 11.64287, 48.08831]
+              "coordinates": [48.08831, 11.64287]
             },
             "properties": {
               "name": "Camptocamp Germany"
