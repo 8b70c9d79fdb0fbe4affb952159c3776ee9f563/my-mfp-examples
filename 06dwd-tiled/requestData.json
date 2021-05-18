@@ -11,10 +11,10 @@
       "scale": 20000,
       "projection": "EPSG:25832",
       "dpi": 72,
-      "rotation": 0,
+      "rotation": 20,
       "layers": [
         {
-          "type": "tiledWms",
+          "type": "WMS",
           "baseURL": "https://maps.dwd.de/geoserver/dwd/wms",
           "opacity": 1,
           "serverType": "geoserver",
@@ -27,15 +27,7 @@
           "imageFormat": "image/png",
           "customParams": {
             "TRANSPARENT": "true"
-          },
-          "tileSize": [
-            1000,
-            1000
-          ],
-          "tileBufferSize": [
-            1,
-            1
-          ]
+          }
         }
       ]
     }
