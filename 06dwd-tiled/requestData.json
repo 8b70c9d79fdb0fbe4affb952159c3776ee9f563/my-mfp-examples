@@ -36,7 +36,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": [696806, 5329497]
+              "coordinates": [ 11.64287, 48.08831]
             },
             "properties": {
               "name": "Camptocamp Germany"
