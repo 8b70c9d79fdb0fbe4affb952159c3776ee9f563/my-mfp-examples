@@ -14,7 +14,7 @@
       "longitudeFirst": true,
       "layers": [
         {
-          "type": "WMS",
+          "type": "tiledWMS",
           "baseURL": "http://localhost:8088/geoserver/by/wms",
           "opacity": 1,
           "serverType": "geoserver",
@@ -24,7 +24,15 @@
           "imageFormat": "image/png",
           "customParams": {
             "TRANSPARENT": "true"
-          }
+          },
+          "tileSize": [
+            500,
+            500
+          ],
+          "tileBufferSize": [
+            500,
+            500
+          ]
         }
       ]
     }

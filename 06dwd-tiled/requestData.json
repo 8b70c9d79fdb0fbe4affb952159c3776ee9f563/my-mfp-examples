@@ -11,31 +11,44 @@
       "scale": 20000,
       "projection": "EPSG:25832",
       "dpi": 72,
-      "rotation": 0,
+      "rotation": 20,
       "layers": [
         {
-          "type": "tiledWms",
-          "baseURL": "https://maps.dwd.de/geoserver/dwd/wms",
-          "opacity": 1,
-          "serverType": "geoserver",
-          "layers": [
-            "dwd:Warngebiete_Gemeinden,dwd:Warngebiete_Gemeinden"
-          ],
-          "styles": [
-            "Warngebiete_gruen,Warngebiete_Gemeinden_Text"
-          ],
-          "imageFormat": "image/png",
-          "customParams": {
-            "TRANSPARENT": "true"
+          "type": "GeoJSON",
+          "geoJson":
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.08831, 11.64287]
+            },
+            "properties": {
+              "name": "Camptocamp Germany"
+            }
           },
-          "tileSize": [
-            1000,
-            1000
-          ],
-          "tileBufferSize": [
-            1,
-            1
-          ]
+          "style":
+          {
+            "version": "2",
+            "*": {
+              "symbolizers": [
+                {
+                  "type": "text",
+                  "fontColor": "#000000",
+                  "label": "[name]",
+                  "goodnessOfFit": 0.1,
+                  "spaceAround": 10
+                },
+                {
+                  "type": "point",
+                  "fillColor": "red",
+                  "strokeColor": "red",
+                  "strokeOpacity": 1,
+                  "strokeWidth": 2,
+                  "pointRadius": 6
+                }
+              ]
+            }
+          }
         }
       ]
     }
