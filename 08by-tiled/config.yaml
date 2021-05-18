@@ -58,7 +58,7 @@ templates:
     - !setTiledWms
       maxWidth: 256
       maxHeight: 256
-      tileBufferWidth: 10
-      tileBufferHeight: 10
+      tileBufferWidth: 5
+      tileBufferHeight: 5
     - !createMap {}
     - !createNorthArrow {}
