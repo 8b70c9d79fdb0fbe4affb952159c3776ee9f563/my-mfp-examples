@@ -1,0 +1,152 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+20:34:08,777 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:34:08,778 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+20:34:08,779 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/bhoefling/dev/mfp/mapfish-print/core/build/resources/main/logback.xml]
+20:34:08,879 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:34:08,882 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:34:08,887 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+20:34:08,902 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:34:08,938 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to WARN
+20:34:08,938 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.codahale] to WARN
+20:34:08,938 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+20:34:08,938 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+20:34:08,938 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+20:34:08,938 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+20:34:08,938 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+20:34:08,939 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:34:08,940 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5136d012 - Registering current configuration as safe fallback point
+20:34:08,977 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:34:08,977 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:34:08,977 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+20:34:08,978 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+20:34:08,978 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+20:34:08,978 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+20:34:08,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to INFO
+20:34:08,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish.print.output.ValuesLogger] to OFF
+20:34:08,978 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+20:34:08,978 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+20:34:08,978 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:34:08,978 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5939a379 - Registering current configuration as safe fallback point
+
+20:34:09.862 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+20:34:09.870 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+20:34:09.871 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+20:34:09.871 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+20:34:09.871 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+20:34:09.871 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+20:34:09.871 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+20:34:09.871 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+20:34:10.634 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+20:34:10.635 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+20:34:10.635 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+20:34:11.418 [ForkJoinPool-1-worker-115] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 0 ms
+20:34:11.531 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:34:11.531 [ForkJoinPool-2-worker-9] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:34:11.531 [ForkJoinPool-2-worker-23] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:34:11.533 [ForkJoinPool-2-worker-23] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:34:11.533 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:34:11.533 [ForkJoinPool-2-worker-9] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:34:11.534 [ForkJoinPool-2-worker-23] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:34:11.534 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:34:11.534 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:34:11.534 [ForkJoinPool-2-worker-23] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:34:11.535 [ForkJoinPool-2-worker-23] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:34:11.535 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:34:11.535 [ForkJoinPool-2-worker-23] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:34:11.535 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:34:11.538 [ForkJoinPool-2-worker-37] WARN  o.m.print.http.HttpRequestFetcher - Request failed https://tile.openstreetmap.org/18/131072/131072.png
+java.net.SocketException: Network is unreachable (connect failed)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.mapfish.print.http.MfSSLSocketFactory.connectSocket(MfSSLSocketFactory.java:47)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:199)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:123)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeCallbacksAndRequest(ConfigFileResolvingHttpRequestFactory.java:161)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeInternal(ConfigFileResolvingHttpRequestFactory.java:143)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.lambda$call$0(HttpRequestFetcher.java:200)
+	at org.mapfish.print.processor.AbstractProcessor$Context.mdcContextEx(AbstractProcessor.java:261)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:194)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:133)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1448)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+20:34:11.538 [ForkJoinPool-2-worker-23] WARN  o.m.print.http.HttpRequestFetcher - Request failed https://tile.openstreetmap.org/18/131071/131071.png
+java.net.SocketException: Network is unreachable (connect failed)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.mapfish.print.http.MfSSLSocketFactory.connectSocket(MfSSLSocketFactory.java:47)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:199)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:123)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeCallbacksAndRequest(ConfigFileResolvingHttpRequestFactory.java:161)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeInternal(ConfigFileResolvingHttpRequestFactory.java:143)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.lambda$call$0(HttpRequestFetcher.java:200)
+	at org.mapfish.print.processor.AbstractProcessor$Context.mdcContextEx(AbstractProcessor.java:261)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:194)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:133)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1448)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+20:34:12.091 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131071/131072.png
+	Status: 403 FORBIDDEN
+	outMessage: Forbidden
+20:34:12.093 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131072/131072.png
+	Status: 500 INTERNAL_SERVER_ERROR
+	outMessage: Network is unreachable (connect failed)
+20:34:12.094 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131071/131071.png
+	Status: 500 INTERNAL_SERVER_ERROR
+	outMessage: Network is unreachable (connect failed)
+20:34:12.094 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131072/131071.png
+	Status: 403 FORBIDDEN
+	outMessage: Forbidden
+20:34:12.887 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 1469 ms
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 1 executed, 2 up-to-date

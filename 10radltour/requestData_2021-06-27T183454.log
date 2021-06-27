@@ -1,0 +1,70 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+20:35:02,059 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:35:02,060 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+20:35:02,061 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/bhoefling/dev/mfp/mapfish-print/core/build/resources/main/logback.xml]
+20:35:02,182 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:35:02,187 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:35:02,194 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+20:35:02,211 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:35:02,255 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to WARN
+20:35:02,255 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.codahale] to WARN
+20:35:02,255 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+20:35:02,255 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+20:35:02,255 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+20:35:02,255 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+20:35:02,255 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+20:35:02,256 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:35:02,257 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5136d012 - Registering current configuration as safe fallback point
+20:35:02,296 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:35:02,296 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:35:02,296 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+20:35:02,298 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+20:35:02,298 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+20:35:02,298 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+20:35:02,298 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to INFO
+20:35:02,298 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish.print.output.ValuesLogger] to OFF
+20:35:02,298 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+20:35:02,298 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+20:35:02,298 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:35:02,298 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5939a379 - Registering current configuration as safe fallback point
+
+20:35:03.145 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+20:35:03.154 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+20:35:03.154 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+20:35:03.154 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+20:35:03.154 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+20:35:03.155 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+20:35:03.155 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+20:35:03.155 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+20:35:03.935 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+20:35:03.935 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+20:35:03.935 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+20:35:04.847 [ForkJoinPool-1-worker-115] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 0 ms
+20:35:04.939 [ForkJoinPool-2-worker-9] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:35:04.939 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://tile.openstreetmap.org:443: Network is unreachable (connect failed)
+20:35:04.939 [ForkJoinPool-2-worker-9] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:35:04.939 [ForkJoinPool-2-worker-37] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://tile.openstreetmap.org:443
+20:35:05.128 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131071/131072.png
+	Status: 403 FORBIDDEN
+	outMessage: Forbidden
+20:35:05.131 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131072/131072.png
+	Status: 403 FORBIDDEN
+	outMessage: Forbidden
+20:35:05.131 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131071/131071.png
+	Status: 403 FORBIDDEN
+	outMessage: Forbidden
+20:35:05.132 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://tile.openstreetmap.org/18/131072/131071.png
+	Status: 403 FORBIDDEN
+	outMessage: Forbidden
+20:35:05.948 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 1101 ms
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 1 executed, 2 up-to-date

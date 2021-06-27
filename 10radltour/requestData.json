@@ -1,6 +1,6 @@
 {
   "layout": "A4 portrait",
-  "outputFormat": "pdf",
+  "outputFormat": "png",
   "attributes": {
     "map": {
       "longitudeFirst": true,
@@ -14,23 +14,10 @@
       "rotation": 0,
       "layers": [
         {
-          "type": "geojson",
-          "geoJson": "file://countries.geojson",
-          "style": {
-            "version": "2",
-            "*": {
-              "symbolizers": [
-                {
-                  "type": "polygon",
-                  "fillColor": "#5E7F99",
-                  "fillOpacity": 1,
-                  "strokeColor": "#CC1D18",
-                  "strokeOpacity": 1,
-                  "strokeWidth": 1
-                }
-              ]
-            }
-          }
+          "name": "osm-layer",
+          "type": "osm",
+          "baseURL": "https://tile.openstreetmap.de/",
+          "imageExtension": "png"
         }
       ]
     }
