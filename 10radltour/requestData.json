@@ -1,23 +1,37 @@
 {
-  "layout": "A4 portrait",
+  "layout": "Square",
   "outputFormat": "png",
   "attributes": {
     "map": {
       "longitudeFirst": true,
       "center": [
-        5,
-        45
+        696806,
+        5329497
       ],
-      "scale": 100000000,
-      "projection": "EPSG:4326",
+      "scale": 20000,
+      "projection": "EPSG:25832",
       "dpi": 72,
       "rotation": 0,
       "layers": [
         {
-          "name": "osm-layer",
-          "type": "osm",
-          "baseURL": "https://tile.openstreetmap.de/",
-          "imageExtension": "png"
+          "type": "tiledWms",
+          "baseURL": "https://maps.dwd.de/geoserver/dwd/wms",
+          "opacity": 1,
+          "serverType": "geoserver",
+          "layers": [
+            "dwd:Warngebiete_Gemeinden,dwd:Warngebiete_Gemeinden"
+          ],
+          "styles": [
+            "Warngebiete_gruen,Warngebiete_Gemeinden_Text"
+          ],
+          "imageFormat": "image/png",
+          "customParams": {
+            "TRANSPARENT": "true"
+          },
+          "tileSize": [
+            250,
+            250
+          ]
         }
       ]
     }

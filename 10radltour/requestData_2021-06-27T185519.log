@@ -1,0 +1,75 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+20:55:20,817 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:55:20,818 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+20:55:20,819 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/bhoefling/dev/mfp/mapfish-print/core/build/resources/main/logback.xml]
+20:55:20,967 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:55:20,972 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:55:20,980 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+20:55:21,015 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:55:21,079 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to WARN
+20:55:21,080 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.codahale] to WARN
+20:55:21,080 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+20:55:21,080 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+20:55:21,080 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+20:55:21,080 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+20:55:21,080 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+20:55:21,080 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:55:21,082 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5136d012 - Registering current configuration as safe fallback point
+20:55:21,139 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:55:21,139 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:55:21,139 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+20:55:21,141 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+20:55:21,141 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+20:55:21,141 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+20:55:21,141 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to INFO
+20:55:21,141 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish.print.output.ValuesLogger] to OFF
+20:55:21,141 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+20:55:21,142 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+20:55:21,142 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:55:21,142 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5939a379 - Registering current configuration as safe fallback point
+
+20:55:22.460 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+20:55:22.476 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+20:55:22.476 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+20:55:22.477 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+20:55:22.477 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+20:55:22.477 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+20:55:22.477 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+20:55:22.477 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+20:55:23.799 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+20:55:23.799 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+20:55:23.800 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+20:55:25.284 [ForkJoinPool-1-worker-115] INFO  o.m.p.p.jasper.JasperReportBuilder - Building Jasper report: /home/bhoefling/dev/mfp/my-examples/10radltour/./report.jrxml
+20:55:25.334 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=693278.2222222222%2C5325969.222222222%2C695042.1111111111%2C5327733.111111111&VERSION=1.1.1&SERVICE=WMS
+20:55:25.355 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=695042.1111111111%2C5325969.222222222%2C696806.0%2C5327733.111111111&VERSION=1.1.1&SERVICE=WMS
+20:55:25.362 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=696806.0%2C5325969.222222222%2C698569.8888888889%2C5327733.111111111&VERSION=1.1.1&SERVICE=WMS
+20:55:25.366 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=698569.8888888889%2C5325969.222222222%2C700333.7777777778%2C5327733.111111111&VERSION=1.1.1&SERVICE=WMS
+20:55:25.378 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=693278.2222222222%2C5327733.111111111%2C695042.1111111111%2C5329497.0&VERSION=1.1.1&SERVICE=WMS
+20:55:25.390 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=695042.1111111111%2C5327733.111111111%2C696806.0%2C5329497.0&VERSION=1.1.1&SERVICE=WMS
+20:55:25.396 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=696806.0%2C5327733.111111111%2C698569.8888888889%2C5329497.0&VERSION=1.1.1&SERVICE=WMS
+20:55:25.400 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=698569.8888888889%2C5327733.111111111%2C700333.7777777778%2C5329497.0&VERSION=1.1.1&SERVICE=WMS
+20:55:25.403 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=693278.2222222222%2C5329497.0%2C695042.1111111111%2C5331260.888888889&VERSION=1.1.1&SERVICE=WMS
+20:55:25.406 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=695042.1111111111%2C5329497.0%2C696806.0%2C5331260.888888889&VERSION=1.1.1&SERVICE=WMS
+20:55:25.417 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=696806.0%2C5329497.0%2C698569.8888888889%2C5331260.888888889&VERSION=1.1.1&SERVICE=WMS
+20:55:25.422 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=698569.8888888889%2C5329497.0%2C700333.7777777778%2C5331260.888888889&VERSION=1.1.1&SERVICE=WMS
+20:55:25.452 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=693278.2222222222%2C5331260.888888889%2C695042.1111111111%2C5333024.777777778&VERSION=1.1.1&SERVICE=WMS
+20:55:25.469 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=695042.1111111111%2C5331260.888888889%2C696806.0%2C5333024.777777778&VERSION=1.1.1&SERVICE=WMS
+20:55:25.477 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=696806.0%2C5331260.888888889%2C698569.8888888889%2C5333024.777777778&VERSION=1.1.1&SERVICE=WMS
+20:55:25.482 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: https://maps.dwd.de/geoserver/dwd/wms?FORMAT_OPTIONS=dpi%3A72&TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=Warngebiete_gruen%2CWarngebiete_Gemeinden_Text&WIDTH=250&HEIGHT=250&LAYERS=dwd%3AWarngebiete_Gemeinden%2Cdwd%3AWarngebiete_Gemeinden&REQUEST=GetMap&SRS=EPSG%3A25832&BBOX=698569.8888888889%2C5331260.888888889%2C700333.7777777778%2C5333024.777777778&VERSION=1.1.1&SERVICE=WMS
+20:55:25.908 [ForkJoinPool-1-worker-115] INFO  o.m.p.p.jasper.JasperReportBuilder - Report '/home/bhoefling/dev/mfp/my-examples/10radltour/./report.jrxml' built in 622ms.
+20:55:25.909 [ForkJoinPool-1-worker-115] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 626 ms
+20:55:26.778 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 1497 ms
+20:55:26.780 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.SetTiledWmsProcessor' was 0 ms
+20:55:26.782 [ForkJoinPool-1-worker-201] INFO  o.m.p.processor.ProcessorGraphNode - Error while executing process: CreateNorthArrowProcessor
+20:55:26.783 [ForkJoinPool-1-worker-201] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateNorthArrowProcessor' was 3 ms
+
+> Task :core:print FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+3 actionable tasks: 1 executed, 2 up-to-date
