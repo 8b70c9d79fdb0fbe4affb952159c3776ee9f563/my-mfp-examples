@@ -1,0 +1,62 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+14:34:19,974 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:34:19,975 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+14:34:19,975 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/bhoefling/dev/mfp/mapfish-print/core/build/resources/main/logback.xml]
+14:34:20,075 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:34:20,078 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:34:20,082 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+14:34:20,095 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:34:20,143 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to WARN
+14:34:20,143 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.codahale] to WARN
+14:34:20,143 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+14:34:20,143 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+14:34:20,143 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+14:34:20,143 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:34:20,143 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+14:34:20,143 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:34:20,144 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5136d012 - Registering current configuration as safe fallback point
+14:34:20,183 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:34:20,183 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:34:20,183 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+14:34:20,184 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:34:20,184 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:34:20,184 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:34:20,184 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to INFO
+14:34:20,184 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish.print.output.ValuesLogger] to OFF
+14:34:20,184 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+14:34:20,184 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+14:34:20,184 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:34:20,184 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5939a379 - Registering current configuration as safe fallback point
+
+14:34:21.372 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+14:34:21.385 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+14:34:21.385 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+14:34:21.385 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+14:34:21.385 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+14:34:21.385 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+14:34:21.385 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+14:34:21.386 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+14:34:22.422 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+14:34:22.423 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+14:34:22.423 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+14:34:23.595 [ForkJoinPool-1-worker-115] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 2 ms
+14:34:23.627 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=376&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-135.3846153846154%2C14.615384615384615%2C-101.64102564102564%2C48.358974358974365&VERSION=1.1.1&SERVICE=WMS
+14:34:23.650 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=376&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-112.41025641025641%2C14.615384615384615%2C-78.66666666666666%2C48.358974358974365&VERSION=1.1.1&SERVICE=WMS
+14:34:23.653 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=328&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-89.43589743589743%2C14.615384615384615%2C-60.0%2C48.358974358974365&VERSION=1.1.1&SERVICE=WMS
+14:34:23.657 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=72&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-66.46153846153845%2C14.615384615384615%2C-60.0%2C48.358974358974365&VERSION=1.1.1&SERVICE=WMS
+14:34:23.662 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=376&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-135.3846153846154%2C37.58974358974359%2C-101.64102564102564%2C71.33333333333334&VERSION=1.1.1&SERVICE=WMS
+14:34:23.664 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=376&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-112.41025641025641%2C37.58974358974359%2C-78.66666666666666%2C71.33333333333334&VERSION=1.1.1&SERVICE=WMS
+14:34:23.667 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=328&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-89.43589743589743%2C37.58974358974359%2C-60.0%2C71.33333333333334&VERSION=1.1.1&SERVICE=WMS
+14:34:23.670 [ForkJoinPool-1-worker-229] INFO  o.m.p.map.tiled.wms.TiledWmsLayer - Tiled WMS query: http://localhost:8088/geoserver/wms?TRANSPARENT=true&FORMAT=image%2Fpng&STYLES=&WIDTH=72&HEIGHT=376&LAYERS=topp%3Astates&REQUEST=GetMap&SRS=EPSG%3A4326&BBOX=-66.46153846153845%2C37.58974358974359%2C-60.0%2C71.33333333333334&VERSION=1.1.1&SERVICE=WMS
+14:34:25.040 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 1446 ms
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 1 executed, 2 up-to-date
