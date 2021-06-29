@@ -16,7 +16,7 @@
       "layers": [
         {
           "type": "osm",
-          "baseURL": "https://tile.openstreetmap.de/"
+          "baseURL": "http://tile.openstreetmap.org/"
         }
       ]
     }

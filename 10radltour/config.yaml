@@ -21,3 +21,8 @@ templates:
         maxHeight: 500
         tileBufferWidth: 50
         tileBufferHeight: 50
+      - !configureHttpRequests
+          httpProcessors:
+          - !addHeaders
+              headers:
+                User-Agent: "MapFish Print"
