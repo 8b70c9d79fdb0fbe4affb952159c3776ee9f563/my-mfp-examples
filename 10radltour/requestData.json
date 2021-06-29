@@ -3,14 +3,14 @@
   "outputFormat": "png",
   "attributes": {
     "map": {
-      "projection": "EPSG:4326",
+      "projection": "EPSG:3857",
       "dpi": 72,
       "rotation": 0,
       "bbox": [
-        -180,
-        -85.05,
-        180,
-        85.05
+        -20037508.3427892,
+        -20037508.3427892,
+         20037508.3427892,
+         20037508.3427892
       ],
       "longitudeFirst": true,
       "layers": [
