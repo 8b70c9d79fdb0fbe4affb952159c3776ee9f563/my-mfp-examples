@@ -1,0 +1,56 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+18:58:00,780 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+18:58:00,781 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+18:58:00,781 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/bhoefling/dev/mfp/mapfish-print/core/build/resources/main/logback.xml]
+18:58:00,860 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:58:00,863 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:58:00,867 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+18:58:00,884 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:58:00,921 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to WARN
+18:58:00,921 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.codahale] to WARN
+18:58:00,921 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+18:58:00,921 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+18:58:00,921 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+18:58:00,921 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+18:58:00,921 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+18:58:00,922 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:58:00,923 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5136d012 - Registering current configuration as safe fallback point
+18:58:00,958 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:58:00,958 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:58:00,958 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+18:58:00,959 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+18:58:00,959 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+18:58:00,959 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+18:58:00,959 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to INFO
+18:58:00,959 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish.print.output.ValuesLogger] to OFF
+18:58:00,959 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+18:58:00,959 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+18:58:00,959 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:58:00,959 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5939a379 - Registering current configuration as safe fallback point
+
+18:58:01.907 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+18:58:01.918 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+18:58:01.919 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+18:58:01.919 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+18:58:01.919 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+18:58:01.919 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+18:58:01.919 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+18:58:01.919 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+18:58:02.695 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+18:58:02.696 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+18:58:02.696 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+18:58:03.619 [ForkJoinPool-1-worker-115] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 1 ms
+18:58:04.636 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 1019 ms
+18:58:04.637 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.SetTiledWmsProcessor' was 0 ms
+18:58:04.638 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.http.CompositeClientHttpRequestFactoryProcessor' was 0 ms
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 1 executed, 2 up-to-date

@@ -1,0 +1,24 @@
+{
+  "layout": "Square",
+  "outputFormat": "png",
+  "attributes": {
+    "map": {
+      "projection": "EPSG:3857",
+      "dpi": 72,
+      "rotation": 45,
+      "bbox": [
+        -20037508.3427892,
+        -20037508.3427892,
+         20037508.3427892,
+         20037508.3427892
+      ],
+      "longitudeFirst": true,
+      "layers": [
+        {
+          "type": "osm",
+          "baseURL": "https://stamen-tiles.a.ssl.fastly.net/toner/"
+        }
+      ]
+    }
+  }
+}

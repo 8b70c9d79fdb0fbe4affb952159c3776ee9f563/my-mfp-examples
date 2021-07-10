@@ -1,0 +1,28 @@
+throwErrorOnExtraParameters: true
+transparentTileErrorColor: 'rgba(78, 78, 255, 125)'
+opaqueTileErrorColor: 'rgba(255, 155, 155, 0)'
+
+templates:
+  Square: !template
+    reportTemplate: report.jrxml
+    attributes:
+      title: !string
+        default: ''
+      map: !map
+        maxDpi: 400
+        width: 256
+        height: 256
+    processors:
+      - !reportBuilder
+        directory: '.'
+      - !createMap {}
+      - !setTiledWms
+        maxWidth: 500
+        maxHeight: 500
+        tileBufferWidth: 50
+        tileBufferHeight: 50
+      - !configureHttpRequests
+          httpProcessors:
+          - !addHeaders
+              headers:
+                User-Agent: "MapFish Print"
