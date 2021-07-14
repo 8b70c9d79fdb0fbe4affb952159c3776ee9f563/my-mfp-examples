@@ -1,0 +1,41 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print FAILED
+11:32:22,782 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:32:22,782 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:32:22,783 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/bhoefling/dev/mfp/mapfish-print/core/build/resources/main/logback.xml]
+11:32:22,882 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:32:22,886 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:32:22,890 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+11:32:22,894 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:32:22,927 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to WARN
+11:32:22,927 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.codahale] to WARN
+11:32:22,927 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+11:32:22,927 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+11:32:22,927 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+11:32:22,927 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+11:32:22,927 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+11:32:22,928 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:32:22,928 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@d706f19 - Registering current configuration as safe fallback point
+11:32:22,972 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:32:22,972 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:32:22,972 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+11:32:22,974 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+11:32:22,974 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+11:32:22,974 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+11:32:22,974 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to INFO
+11:32:22,974 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish.print.output.ValuesLogger] to OFF
+11:32:22,974 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+11:32:22,974 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+11:32:22,974 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:32:22,974 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@30b7c004 - Registering current configuration as safe fallback point
+
+11:32:23.778 [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'custom-font-loader' defined in class path resource [mapfish-spring-custom-fonts.xml]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mapfish.print.config.CustomFontLoader]: Constructor threw exception; nested exception is java.lang.UnsatisfiedLinkError: Can't load library: /usr/lib/jvm/java-11-openjdk-amd64/lib/libawt_xawt.so
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+3 actionable tasks: 1 executed, 2 up-to-date

@@ -2,6 +2,19 @@ throwErrorOnExtraParameters: true
 transparentTileErrorColor: 'rgba(78, 78, 255, 125)'
 opaqueTileErrorColor: 'rgba(255, 155, 155, 0)'
 
+#http://mapfish.github.io/mapfish-print-doc/configuration.html#!proxy
+proxies:
+  - !proxy
+    scheme: http
+    host: "[::1]"
+    port: 8080
+    username: jack
+    password: insecure
+    # TODO: Try with different URLs in the request and different matchers here
+    preemtiveAuthScheme: Basic
+    matchers:
+      - !acceptAll {}
+
 templates:
   Square: !template
     reportTemplate: report.jrxml

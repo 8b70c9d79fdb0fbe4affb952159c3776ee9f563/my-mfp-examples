@@ -1,0 +1,178 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+Listening for transport dt_socket at address: 5005
+gradle: 13:01:53.405 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 0
+gradle: 13:01:53.438 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+gradle: 13:01:53.446 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 1
+gradle: 13:01:53.446 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+gradle: 13:01:53.446 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 2
+gradle: 13:01:53.446 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+gradle: 13:01:53.446 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 3
+gradle: 13:01:53.446 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+gradle: 13:01:53.446 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 0
+gradle: 13:01:53.446 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+gradle: 13:01:53.447 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 1
+gradle: 13:01:53.447 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+gradle: 13:01:53.447 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 2
+gradle: 13:01:53.447 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+gradle: 13:01:53.447 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 3
+gradle: 13:01:53.447 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+gradle: 13:01:53.447 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 0
+gradle: 13:01:53.447 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 1
+gradle: 13:01:53.447 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 2
+gradle: 13:01:53.447 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 3
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 0
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 1
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 2
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 3
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 0
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 1
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 2
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 3
+gradle: 13:01:53.448 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 0
+gradle: 13:01:53.449 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 1
+gradle: 13:01:53.450 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 2
+gradle: 13:01:53.450 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 3
+gradle: 13:01:53.450 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 0
+gradle: 13:01:53.450 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 1
+gradle: 13:01:53.450 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 2
+gradle: 13:01:53.450 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 3
+gradle: 13:01:53.450 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 0
+gradle: 13:01:53.451 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 1
+gradle: 13:01:53.451 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 2
+gradle: 13:01:53.451 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 3
+gradle: 13:01:53.889 [main] DEBUG org.mapfish.print.config.WorkingDirectories - Working directory: /tmp/mapfish-print/default
+gradle: 13:01:54.484 [Clean up old files] INFO  org.mapfish.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+gradle: 13:01:54.485 [Clean up old files] INFO  org.mapfish.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+gradle: 13:01:54.485 [Clean up old files] INFO  org.mapfish.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+gradle: 13:01:54.875 [main] DEBUG org.mapfish.print.cli.Main - Request Data: 
+{
+  "layout": "Square",
+  "attributes": {"map": {
+    "rotation": 45,
+    "bbox": [
+      -20037508.3427892,
+      -20037508.3427892,
+      20037508.3427892,
+      20037508.3427892
+    ],
+    "longitudeFirst": true,
+    "layers": [{
+      "baseURL": "https://stamen-tiles.a.ssl.fastly.net/toner/",
+      "type": "osm",
+      "failOnError": "true"
+    }],
+    "projection": "EPSG:3857",
+    "dpi": 72
+  }},
+  "outputFormat": "png"
+}
+gradle: 13:01:55.794 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorDependencyGraph - Starting to execute processor graph: 
+strict digraph g {
+  rankdir="LR";
+  node [shape="box"];
+"root" -> "JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/11osm-with-proxy/.)";
+"root" -> "CreateMapProcessor";
+  "CreateMapProcessor" -> "CompositeClientHttpRequestFactoryProcessor";
+    "CompositeClientHttpRequestFactoryProcessor" -> "AddHeadersProcessor";
+  "CreateMapProcessor" -> "SetTiledWmsProcessor";
+    "SetTiledWmsProcessor" -> "CompositeClientHttpRequestFactoryProcessor";
+      "CompositeClientHttpRequestFactoryProcessor" -> "AddHeadersProcessor";
+}
+gradle: 13:01:55.807 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Executing process: JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/11osm-with-proxy/.)
+gradle: 13:01:55.807 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Executing process: CreateMapProcessor
+gradle: 13:01:55.811 [ForkJoinPool-1-worker-115] INFO  org.mapfish.print.processor.jasper.JasperReportBuilder - Building Jasper report: /home/bhoefling/dev/mfp/my-examples/11osm-with-proxy/./report.jrxml
+gradle: 13:01:55.812 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.jasper.JasperReportBuilder - To: /tmp/mapfish-print/default/11osm-with-proxy/jasper-bin/./report.jasper
+gradle: 13:01:55.835 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@4c66d97b
+gradle: 13:01:55.836 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@6eb55978
+gradle: 13:01:55.836 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@79b09910
+gradle: 13:01:55.836 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@3673a5c
+gradle: 13:01:55.838 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@7dfc9515
+gradle: 13:01:55.840 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@4773e52c
+gradle: 13:01:55.840 [ForkJoinPool-2-worker-51] DEBUG org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory - Executing http request: https://stamen-tiles.a.ssl.fastly.net/toner/0/0/0.png
+gradle: 13:01:55.841 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@1bb7ae73
+gradle: 13:01:55.841 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.TilePreparationTask - Tile out of bounds: org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest@54a1087a
+gradle: 13:01:55.842 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.map.CreateMapProcessor - Building groups of layers
+gradle: 13:01:55.842 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.map.CreateMapProcessor - New group for layer PNG, 1.0000000017853492
+gradle: 13:01:55.843 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.map.CreateMapProcessor - Adding layer  to the group
+gradle: 13:01:55.848 [ForkJoinPool-2-worker-51] DEBUG org.mapfish.print.http.MfClientHttpRequestFactoryImpl - Preparing request GET https://stamen-tiles.a.ssl.fastly.net/toner/0/0/0.png: X-Request-ID: main
+gradle: 13:01:55.855 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.tiled.CoverageTask - 
+	GET -- https://stamen-tiles.a.ssl.fastly.net/toner/0/0/0.png
+gradle: 13:01:56.497 [ForkJoinPool-1-worker-115] INFO  org.mapfish.print.processor.jasper.JasperReportBuilder - Report '/home/bhoefling/dev/mfp/my-examples/11osm-with-proxy/./report.jrxml' built in 680ms.
+gradle: 13:01:56.498 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Succeeded in executing process: JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/11osm-with-proxy/.)
+gradle: 13:01:56.498 [ForkJoinPool-1-worker-115] INFO  org.mapfish.print.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 691 ms
+gradle: 14:39:38.452 [ForkJoinPool-2-worker-51] DEBUG org.mapfish.print.processor.http.matcher.UriMatchers - Accept GET https://stamen-tiles.a.ssl.fastly.net:443//toner/0/0/0.png because of this rule: Accept All
+gradle: 14:39:40.358 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+gradle: 14:39:40.361 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {tls}->http://[::1]:8080->https://stamen-tiles.a.ssl.fastly.net:443][total available: 0; route allocated: 0 of 10; total allocated: 0 of 100]
+gradle: 14:39:40.381 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {tls}->http://[::1]:8080->https://stamen-tiles.a.ssl.fastly.net:443][total available: 0; route allocated: 1 of 10; total allocated: 1 of 100]
+gradle: 14:39:40.383 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {tls}->http://[::1]:8080->https://stamen-tiles.a.ssl.fastly.net:443
+gradle: 14:39:40.390 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /0:0:0:0:0:0:0:1:8080
+gradle: 14:39:40.394 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Shutdown connection
+gradle: 14:39:40.394 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+gradle: 14:39:40.394 [ForkJoinPool-2-worker-51] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {tls}->http://[::1]:8080->https://stamen-tiles.a.ssl.fastly.net:443][total available: 0; route allocated: 0 of 10; total allocated: 0 of 100]
+gradle: 14:39:40.396 [ForkJoinPool-2-worker-51] WARN  org.mapfish.print.http.HttpRequestFetcher - Request failed https://stamen-tiles.a.ssl.fastly.net/toner/0/0/0.png
+org.apache.http.conn.HttpHostConnectException: Connect to [::1]:8080 [/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:199)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:123)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeCallbacksAndRequest(ConfigFileResolvingHttpRequestFactory.java:161)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeInternal(ConfigFileResolvingHttpRequestFactory.java:143)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.lambda$call$0(HttpRequestFetcher.java:200)
+	at org.mapfish.print.processor.AbstractProcessor$Context.mdcContextEx(AbstractProcessor.java:261)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:194)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:133)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1448)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 25 common frames omitted
+gradle: 14:39:40.399 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.http.HttpRequestFetcher - Loading cached URI resource https://stamen-tiles.a.ssl.fastly.net/toner/0/0/0.png
+gradle: 14:39:40.402 [ForkJoinPool-1-worker-229] INFO  org.mapfish.print.processor.ProcessorGraphNode - Error while executing process: CreateMapProcessor
+gradle: 14:39:40.403 [ForkJoinPool-1-worker-229] INFO  org.mapfish.print.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 5864595 ms
+gradle: 14:39:40.404 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorDependencyGraph - Finished executing processor graph: 
+strict digraph g {
+  rankdir="LR";
+  node [shape="box"];
+"root" -> "JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/11osm-with-proxy/.)";
+"root" -> "CreateMapProcessor";
+  "CreateMapProcessor" -> "CompositeClientHttpRequestFactoryProcessor";
+    "CompositeClientHttpRequestFactoryProcessor" -> "AddHeadersProcessor";
+  "CreateMapProcessor" -> "SetTiledWmsProcessor";
+    "SetTiledWmsProcessor" -> "CompositeClientHttpRequestFactoryProcessor";
+      "CompositeClientHttpRequestFactoryProcessor" -> "AddHeadersProcessor";
+}
+gradle: 14:39:40.412 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+gradle: 14:39:40.412 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+
+> Task :core:print FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+3 actionable tasks: 1 executed, 2 up-to-date

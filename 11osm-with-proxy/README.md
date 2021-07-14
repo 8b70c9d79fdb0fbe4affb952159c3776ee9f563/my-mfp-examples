@@ -1,6 +1,3 @@
-DWD: Playing with the alert regions. And tiling.
+OSM Tiles from Stamen.
 
-Here: Use WMS with auto-tiling instead of tiledWMS.
-
-
-
+Here with Proxy, authenticated.

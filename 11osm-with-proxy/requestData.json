@@ -16,7 +16,8 @@
       "layers": [
         {
           "type": "osm",
-          "baseURL": "https://stamen-tiles.a.ssl.fastly.net/toner/"
+          "baseURL": "https://stamen-tiles.a.ssl.fastly.net/toner/",
+          "failOnError": "true"
         }
       ]
     }

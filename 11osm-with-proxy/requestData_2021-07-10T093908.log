@@ -1,0 +1,93 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+11:39:10,095 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:39:10,096 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:39:10,096 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/bhoefling/dev/mfp/mapfish-print/core/build/resources/main/logback.xml]
+11:39:10,174 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:39:10,177 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:39:10,181 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+11:39:10,185 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:39:10,227 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to WARN
+11:39:10,227 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.codahale] to WARN
+11:39:10,227 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+11:39:10,227 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+11:39:10,227 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+11:39:10,227 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+11:39:10,227 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+11:39:10,227 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:39:10,228 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@306cf3ea - Registering current configuration as safe fallback point
+11:39:10,268 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:39:10,268 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:39:10,268 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [standardOut]
+11:39:10,270 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+11:39:10,270 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+11:39:10,270 |-WARN in ch.qos.logback.core.ConsoleAppender[standardOut] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+11:39:10,270 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish] to INFO
+11:39:10,270 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mapfish.print.output.ValuesLogger] to OFF
+11:39:10,270 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+11:39:10,270 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [standardOut] to Logger[ROOT]
+11:39:10,270 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:39:10,270 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2beee7ff - Registering current configuration as safe fallback point
+
+11:39:11.169 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+11:39:11.178 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+11:39:11.178 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+11:39:11.179 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+11:39:11.179 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+11:39:11.179 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+11:39:11.179 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+11:39:11.179 [main] INFO  o.m.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+11:39:11.898 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+11:39:11.899 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+11:39:11.899 [Clean up old files] INFO  o.m.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+11:39:12.883 [ForkJoinPool-1-worker-115] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 0 ms
+11:39:12.933 [ForkJoinPool-2-worker-51] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (org.apache.http.conn.UnsupportedSchemeException) caught when processing request to {tls}->html://::1:80->https://stamen-tiles.a.ssl.fastly.net:443: html protocol is not supported
+11:39:12.933 [ForkJoinPool-2-worker-51] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {tls}->html://::1:80->https://stamen-tiles.a.ssl.fastly.net:443
+11:39:12.934 [ForkJoinPool-2-worker-51] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (org.apache.http.conn.UnsupportedSchemeException) caught when processing request to {tls}->html://::1:80->https://stamen-tiles.a.ssl.fastly.net:443: html protocol is not supported
+11:39:12.934 [ForkJoinPool-2-worker-51] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {tls}->html://::1:80->https://stamen-tiles.a.ssl.fastly.net:443
+11:39:12.934 [ForkJoinPool-2-worker-51] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (org.apache.http.conn.UnsupportedSchemeException) caught when processing request to {tls}->html://::1:80->https://stamen-tiles.a.ssl.fastly.net:443: html protocol is not supported
+11:39:12.934 [ForkJoinPool-2-worker-51] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {tls}->html://::1:80->https://stamen-tiles.a.ssl.fastly.net:443
+11:39:12.936 [ForkJoinPool-2-worker-51] WARN  o.m.print.http.HttpRequestFetcher - Request failed https://stamen-tiles.a.ssl.fastly.net/toner/0/0/0.png
+org.apache.http.conn.UnsupportedSchemeException: html protocol is not supported
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:109)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:199)
+	at org.mapfish.print.http.MfClientHttpRequestFactoryImpl$Request.executeInternal(MfClientHttpRequestFactoryImpl.java:123)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeCallbacksAndRequest(ConfigFileResolvingHttpRequestFactory.java:161)
+	at org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory$ConfigFileResolvingRequest.executeInternal(ConfigFileResolvingHttpRequestFactory.java:143)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.lambda$call$0(HttpRequestFetcher.java:200)
+	at org.mapfish.print.processor.AbstractProcessor$Context.mdcContextEx(AbstractProcessor.java:261)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:194)
+	at org.mapfish.print.http.HttpRequestFetcher$CachedClientHttpRequest.call(HttpRequestFetcher.java:133)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1448)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+11:39:12.939 [ForkJoinPool-1-worker-229] INFO  o.m.print.map.tiled.CoverageTask - Error making tile request: https://stamen-tiles.a.ssl.fastly.net/toner/0/0/0.png
+	Status: 500 INTERNAL_SERVER_ERROR
+	outMessage: html protocol is not supported
+11:39:13.679 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 797 ms
+11:39:13.680 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.SetTiledWmsProcessor' was 0 ms
+11:39:13.680 [ForkJoinPool-1-worker-229] INFO  o.m.p.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.http.CompositeClientHttpRequestFactoryProcessor' was 0 ms
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 1 executed, 2 up-to-date
