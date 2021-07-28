@@ -1,0 +1,149 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+gradle: 09:45:43.102 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 0
+gradle: 09:45:43.117 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+gradle: 09:45:43.125 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 1
+gradle: 09:45:43.125 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+gradle: 09:45:43.125 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 2
+gradle: 09:45:43.125 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+gradle: 09:45:43.125 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family JasperReports Icons style 3
+gradle: 09:45:43.125 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+gradle: 09:45:43.125 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 0
+gradle: 09:45:43.125 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=plain,size=10] from Jasper registered successfully
+gradle: 09:45:43.125 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 1
+gradle: 09:45:43.126 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bold,size=10] from Jasper registered successfully
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 2
+gradle: 09:45:43.126 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=italic,size=10] from Jasper registered successfully
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Pictonic style 3
+gradle: 09:45:43.126 [main] INFO  org.mapfish.print.config.CustomFontLoader - Font java.awt.Font[family=JasperReports Icons,name=JasperReports Icons,style=bolditalic,size=10] from Jasper registered successfully
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 0
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 1
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 2
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans style 3
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 0
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 1
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 2
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Serif style 3
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 0
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 1
+gradle: 09:45:43.126 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 2
+gradle: 09:45:43.127 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family DejaVu Sans Mono style 3
+gradle: 09:45:43.127 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 0
+gradle: 09:45:43.127 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 1
+gradle: 09:45:43.127 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 2
+gradle: 09:45:43.127 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family SansSerif style 3
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 0
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 1
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 2
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Serif style 3
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 0
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 1
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 2
+gradle: 09:45:43.128 [main] DEBUG org.mapfish.print.config.CustomFontLoader - Registered font family Monospaced style 3
+gradle: 09:45:43.483 [main] DEBUG org.mapfish.print.config.WorkingDirectories - Working directory: /tmp/mapfish-print/default
+gradle: 09:45:43.916 [Clean up old files] INFO  org.mapfish.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default/reports
+gradle: 09:45:43.917 [Clean up old files] INFO  org.mapfish.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp/mapfish-print/default
+gradle: 09:45:43.917 [Clean up old files] INFO  org.mapfish.print.config.WorkingDirectories - deleted 0 old file(s) in /tmp
+gradle: 09:45:44.182 [main] DEBUG org.mapfish.print.cli.Main - Request Data: 
+{
+  "layout": "A4 portrait",
+  "attributes": {"map": {
+    "center": [
+      5,
+      45
+    ],
+    "rotation": 0,
+    "longitudeFirst": true,
+    "layers": [{
+      "geoJson": "file://countries.geojson",
+      "style": {
+        "*": {"symbolizers": [{
+          "fillColor": "#5E7F99",
+          "strokeWidth": 1,
+          "fillOpacity": 1,
+          "type": "polygon",
+          "strokeColor": "#CC1D18",
+          "strokeOpacity": 1
+        }]},
+        "version": "2"
+      },
+      "type": "geojson"
+    }],
+    "scale": 10000000,
+    "projection": "EPSG:4326",
+    "dpi": 72
+  }},
+  "outputFormat": "png"
+}
+gradle: 09:45:44.719 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorDependencyGraph - Starting to execute processor graph: 
+strict digraph g {
+  rankdir="LR";
+  node [shape="box"];
+"root" -> "JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/13scalebar_colored/.)";
+"root" -> "CreateMapProcessor";
+  "CreateMapProcessor" -> "CreateScalebarProcessor";
+}
+gradle: 09:45:44.725 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Executing process: CreateMapProcessor
+gradle: 09:45:44.725 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Executing process: JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/13scalebar_colored/.)
+gradle: 09:45:44.726 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.jasper.JasperReportBuilder - Destination file is already up to date: /tmp/mapfish-print/default/13scalebar_colored/jasper-bin/./report.jasper
+gradle: 09:45:44.727 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Succeeded in executing process: JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/13scalebar_colored/.)
+gradle: 09:45:44.727 [ForkJoinPool-1-worker-115] INFO  org.mapfish.print.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.jasper.JasperReportBuilder' was 1 ms
+gradle: 09:45:44.764 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.map.CreateMapProcessor - Building groups of layers
+gradle: 09:45:44.764 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.map.CreateMapProcessor - New group for layer UNKNOWN, 1.0
+gradle: 09:45:44.764 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.map.CreateMapProcessor - Adding layer  to the group
+gradle: 09:45:44.981 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.style.SLDParserPlugin$ErrorHandler - XML fatal error: Content is not allowed in prolog.
+gradle: 09:45:44.997 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory - Executing http request: file:/home/bhoefling/dev/mfp/mapfish-print/%7B%22*%22:%7B%22symbolizers%22:%5B%7B%22fillColor%22:%22%235E7F99%22,%22strokeWidth%22:1,%22fillOpacity%22:1,%22type%22:%22polygon%22,%22strokeColor%22:%22%23CC1D18%22,%22strokeOpacity%22:1%7D%5D%7D,%22version%22:%222%22%7D
+gradle: 09:45:45.002 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.http.MfClientHttpRequestFactoryImpl - Preparing request GET file:/home/bhoefling/dev/mfp/mapfish-print/%7B%22*%22:%7B%22symbolizers%22:%5B%7B%22fillColor%22:%22%235E7F99%22,%22strokeWidth%22:1,%22fillOpacity%22:1,%22type%22:%22polygon%22,%22strokeColor%22:%22%23CC1D18%22,%22strokeOpacity%22:1%7D%5D%7D,%22version%22:%222%22%7D: X-Request-ID: main
+gradle: 09:45:45.093 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.map.style.StyleParser - Loaded style from: 
+
+ '{"*":{"symbolizers":[{"fillColor":"#5E7F99","strokeWidth":1,"fillOpacity":1,"type":"polygon","strokeColor":"#CC1D18","strokeOpacity":1}]},"version":"2"}': 
+
+<?xml version="1.0" encoding="UTF-8"?><sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0"><sld:UserLayer><sld:LayerFeatureConstraints><sld:FeatureTypeConstraint/></sld:LayerFeatureConstraints><sld:UserStyle><sld:Name>Default Styler</sld:Name><sld:FeatureTypeStyle><sld:Name>name</sld:Name><sld:Rule><sld:MinScaleDenominator>4.9E-324</sld:MinScaleDenominator><sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator><sld:PolygonSymbolizer><sld:Fill><sld:CssParameter name="fill">#5E7F99</sld:CssParameter></sld:Fill><sld:Stroke><sld:CssParameter name="stroke">#CC1D18</sld:CssParameter></sld:Stroke></sld:PolygonSymbolizer></sld:Rule></sld:FeatureTypeStyle></sld:UserStyle></sld:UserLayer></sld:StyledLayerDescriptor>
+gradle: 09:45:45.766 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Succeeded in executing process: CreateMapProcessor
+gradle: 09:45:45.767 [ForkJoinPool-1-worker-229] INFO  org.mapfish.print.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.CreateMapProcessor' was 1041 ms
+gradle: 09:45:45.767 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Executing process: CreateScalebarProcessor
+gradle: 09:45:45.851 [ForkJoinPool-1-worker-229] DEBUG org.mapfish.print.processor.ProcessorGraphNode - Succeeded in executing process: CreateScalebarProcessor
+gradle: 09:45:45.852 [ForkJoinPool-1-worker-229] INFO  org.mapfish.print.processor.ProcessorGraphNode - Time taken to run processor: 'class org.mapfish.print.processor.map.scalebar.CreateScalebarProcessor' was 84 ms
+gradle: 09:45:45.852 [ForkJoinPool-1-worker-115] DEBUG org.mapfish.print.processor.ProcessorDependencyGraph - Finished executing processor graph: 
+strict digraph g {
+  rankdir="LR";
+  node [shape="box"];
+"root" -> "JasperReportBuilder(/home/bhoefling/dev/mfp/my-examples/13scalebar_colored/.)";
+"root" -> "CreateMapProcessor";
+  "CreateMapProcessor" -> "CreateScalebarProcessor";
+}
+gradle: 09:45:45.853 [main] INFO  org.mapfish.print.output.ValuesLogger - This log message details the parameters available for use in the Jasper templates for
+  Mapfish Template: A4 portrait
+  Jasper Template name: report.jrxml
+  The following parameters are available for use in the templates: 
+    * template (org.mapfish.print.config.Template)
+    * layerGraphics (java.util.ArrayList)
+    * mapSubReport (java.lang.String)
+    * scalebarSubReport (java.lang.String)
+    * values (org.mapfish.print.output.Values)
+    * REPORT_LOCALE (java.util.Locale)
+    * SUBREPORT_DIR (java.lang.String)
+    * title (java.lang.String)
+    * jobId (java.lang.String)
+    * pdfConfig (org.mapfish.print.config.PDFConfig)
+    * mapContext (org.mapfish.print.attribute.map.MapfishMapContext)
+    * scalebarGraphic (java.lang.String)
+    * clientHttpRequestFactoryProvider (org.mapfish.print.processor.http.MfClientHttpRequestFactoryProvider)
+    * tempTaskDirectory (java.io.File)
+    * map (org.mapfish.print.attribute.map.MapAttribute$MapAttributeValues)
+    * scalebar (org.mapfish.print.attribute.ScalebarAttribute$ScalebarAttributeValues)
+
+gradle: 09:45:46.002 [report subreports #1] DEBUG org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory - Resolved request: /tmp/mapfish-print/default/task-13386030255933846630/scalebar-graphic-9400519935935134676.svg using mapfish print config file loaders.
+gradle: 09:45:46.011 [report subreports #1] DEBUG org.mapfish.print.http.ConfigFileResolvingHttpRequestFactory - Resolved request: /tmp/mapfish-print/default/task-13386030255933846630/e68fc487-1029-42c5-b700-b31dae31e233_layer_0.png using mapfish print config file loaders.
+gradle: 09:45:46.384 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+gradle: 09:45:46.384 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 1 executed, 2 up-to-date

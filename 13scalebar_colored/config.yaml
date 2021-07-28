@@ -22,9 +22,13 @@ templates:
         default:
           intervals: 5
           subIntervals: true
-          type: line
+#          type: line
+          type: bar
           unit: m
-        
+          backgroundColor: 'rgba(255, 0, 0, 0)'
+          barBgColor: 'rgba(0, 127, 0, 0)'
+          color: 'rgba(255, 0, 0, 0)'
+
     processors:
       - !reportBuilder
         directory: '.'
