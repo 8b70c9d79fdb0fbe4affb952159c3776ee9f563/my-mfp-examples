@@ -1,0 +1,7 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources UP-TO-DATE
+> Task :core:classes UP-TO-DATE
+
+> Task :core:print
+Listening for transport dt_socket at address: 5005
+gradle: 16:20:12.573 [ForkJoinPool-1-worker-229] ERROR o.m.p.h.MfClientHttpRequestFactoryImpl - No configuration found. Cannot set preemtive authentication.
