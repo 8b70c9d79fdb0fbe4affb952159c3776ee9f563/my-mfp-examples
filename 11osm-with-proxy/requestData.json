@@ -16,7 +16,7 @@
       "layers": [
         {
           "type": "osm",
-          "baseURL": "https://stamen-tiles.a.ssl.fastly.net/toner/",
+          "baseURL": "https://tile.openstreetmap.org/",
           "failOnError": "true"
         }
       ]

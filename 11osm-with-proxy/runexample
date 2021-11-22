@@ -32,7 +32,7 @@ for json in `ls $RUN_PATH/*.json`; do
   LOG=${INPUT%.json}_$TIMESTAMP.log
   echo $INPUT
   echo $OUTPUT
-  $MFP_PATH/gradlew print  $LOGBACK_CONFIG $DEBUG -PprintArgs="-config $RUN_PATH/config.yaml -spec $INPUT -output $OUTPUT -uselogback" | tee $LOG
+  $MFP_PATH/gradlew print  "-Dlogback.debug=true" $LOGBACK_CONFIG $DEBUG -PprintArgs="-config $RUN_PATH/config.yaml -spec $INPUT -output $OUTPUT -uselogback" | tee $LOG
 done
 
 # ln
